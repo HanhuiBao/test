@@ -1,0 +1,5 @@
+baseURL = 'http://hanhuibao.com/'
+languageCode = 'en-us'
+title = 'Hanhui Bao'
+theme = 'PaperMod'
+
