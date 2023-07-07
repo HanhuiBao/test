@@ -3,3 +3,44 @@ languageCode = 'en-us'
 title = 'Hanhui Bao'
 theme = 'PaperMod'
 
+[params.profileMode]
+enabled = true
+title = "Hanhui Bao"
+subtitle = "Welcome, I'm a Ph.D. student at University of Tennessee, Knoxville!"
+imageUrl = "hugo-demo.jpeg"
+imageTitle = "Hanhui Bao"
+imageWidth = 300
+imageHeight = 400
+
+[params.buttons]
+-name = "Archive"
+url = "/archive/"
+
+[params.cover]
+linkFullImages = true
+
+[params]
+ShowBreadCrumbs = true
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+[[menu.main]]
+  name = 'Posts'
+  pageRef = '/Posts'
+  weight = 50
+[[menu.main]]
+  name = 'CV'
+  pageRef = '/CV'
+  weight = 40
+  url = "Hanhui_BaoCV.pdf"
+[[menu.main]]
+  name = 'Publications'
+  pageRef = '/publications.html'
+  weight = 20
+[[menu.main]]
+  name = 'About'
+  pageRef = '/aboutme.html'
+  weight = 30

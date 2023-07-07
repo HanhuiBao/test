@@ -1,12 +1,11 @@
 ---
-title: "My First Post"
+title: "New Hugo Resident"
 date: 2023-07-03T09:03:20-08:00
 draft: true
-cover:
-    image: hugo-demo.jpeg
-    caption: I am so cool!
+tags: ["post", "introduction"]
+categories: ["post"]
 ---
 
 # My first post on hugo learning
 
-Hello people!
+Hello Hugo!
