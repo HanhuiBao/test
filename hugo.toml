@@ -12,16 +12,6 @@ imageTitle = "Hanhui Bao"
 imageWidth = 300
 imageHeight = 400
 
-[params.buttons]
--name = "Archive"
-url = "/archive/"
-
-[params.cover]
-linkFullImages = true
-
-[params]
-ShowBreadCrumbs = true
-
 [menu]
 [[menu.main]]
   name = 'Home'
@@ -35,12 +25,22 @@ ShowBreadCrumbs = true
   name = 'CV'
   pageRef = '/CV'
   weight = 40
-  url = "Hanhui_BaoCV.pdf"
+  url = "CV.pdf"
 [[menu.main]]
   name = 'Publications'
   pageRef = '/publications.html'
-  weight = 20
+  weight = 30
 [[menu.main]]
   name = 'About'
   pageRef = '/aboutme.html'
-  weight = 30
+  weight = 20
+
+[params.buttons]
+-name = "Archive"
+url = "/archive/"
+
+[params.cover]
+linkFullImages = true
+
+[params]
+description = "Hanhui Bao's homepage"
